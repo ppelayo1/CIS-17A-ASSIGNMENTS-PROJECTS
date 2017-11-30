@@ -1,0 +1,76 @@
+									main
+									
+						start
+					int yrMdl
+					string mke
+					
+					
+					prompt for make of the car 
+					getLine from cin to mke
+					
+					prompt for model year of the car
+					cin >> yrMdl
+					
+					create a Car object and pass the yrMdl and mke to it
+					
+					run the acc Car function 5 times and after each run output the new speed
+					
+					do same with the dec Car function
+					
+						end
+						
+						
+									Car specification file
+									
+						Start
+									
+					int yrMdl
+					string mke
+					int spd
+					int spdc
+									
+									
+					constructor accept int and string
+									
+					get year model functikon return int
+									
+					get Mme function return string
+					get spd function return the speed
+									
+					two void functions
+					acc and dec
+					acc incrimt speed by 5
+					dec decrimint by 5 and assign zero if negative
+									
+						End
+
+									Car implimintation file
+									
+						Start
+					
+					Start Constructor( accept int yrMdl, and string mke)
+					
+						spd = 0
+						Car mke = mke
+						Car spdC = 5
+					
+						input validate to ensure the model year of car is within
+						1900 and 2017
+						
+						Car yrMdl = yrMdl
+						
+					end constructor
+					
+					three accessor functions return their specified variables
+					no other operations
+					
+					acc function increases spd by 5 each run
+					
+					dec function decreases spd by 5 each run, assign 0 if spd is negative
+					
+						end
+					
+									
+									
+									
+					

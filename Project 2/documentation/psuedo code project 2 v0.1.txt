@@ -1,0 +1,50 @@
+
+
+
+												Classes
+													
+									Input/OutPutClass    >>          GameClass
+									
+									InputClass handles the reading and writing from the drive.
+										
+									GameClass derives from the input/output class handles the operations of the game
+										
+										
+										
+										
+									InputClass                            TWO CONSTRUCTORS ONE FOR WRITE ONE FOR READ into the string class
+									variables   
+										protected
+											string *ptr
+											int size
+											
+										public
+											constructor1 read file accepts just a fileName
+											constructor2 writes to file accepts fileName
+											void writeFile(string ) //writes out to a user configured bin file
+											
+											
+											~deconstructor() free the memory
+											
+											
+											
+											
+									GameClass
+										members
+										protected
+											char *ptr;  //ptr to that word
+											int  length;  //this is the length of the word
+											char *blnk; //blank array same size as the word, it will be compared to the word
+											int nGuess = 0; //number of guesses currently made
+											bool gameStart = false; //gamestart Status
+											char *guess; //array to store the attempted guesses by the user
+											int misses = 0; //the number of misses so far, keeps track of the hanged man graphic
+											
+											void getInput()     //Gets input for the game
+											void disPlay()      //Displays the game interface+progress
+											
+										public
+											constructor() // Empty, pass the file name to base class though.
+											~deconstructor() free the memory    dies first/ born last
+										void	runGame()      //Will run the game until won or lost.
+										

@@ -1,0 +1,58 @@
+
+
+
+
+												HangMan game
+									Summary: User guesses the word by guessing single letters.
+									User given limited number of tries to solve the word.
+									Each attempt slowly draws the man to be hanged.
+									Each correct letter displays that letter on screen at its apropriate location.
+									Once the word is correctly guessed the user wins, if man finished drawing, game lost.
+									
+									
+							Program psuedoCode begin
+							
+						functions needed          get input function
+												  draw display function
+												  check hit
+												 
+												 
+									program main   V1.0 barebones of project
+									
+										call display function and display the instructions
+										
+										
+										begin game
+										call display function ,and display the interface and the dashed lines ________ to signify the number of characters available
+										
+										check hit function will determine if user input  is in a character array
+										
+										Utilize structures to store character arrays with their size.
+										Size will likely be dynamicly allocated.
+										
+										
+										Can store all bin words in a bin file.										
+										(V2.0 ideas****Can upload these words first in a txt file before saving in the bin file as a pernament word database.
+										This gives user options to extend on the word database)
+										
+										For now just store words in char array thru direct inputed strings
+										
+										proceed thru game and add functions as needed
+
+										
+														
+																hang man
+																
+																-----------
+																|		  |
+																(*_*)		  | 
+																  |	      |
+																--|--
+ 																  |
+																 | |
+																 
+																 
+																 
+																 
+																 word list is obtained from 
+																 http://www.manythings.org/vocabulary/lists/l/words.php?f=noll15
